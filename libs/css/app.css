@@ -3425,6 +3425,14 @@ table ul {
   background: #FFF;
 }
 
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #1B396A;
+  color: white;
+  font-weight: bold;
+}
 /* line 137, ../../sass/_export.scss */
 .biz-ex-unsupport {
   position: relative;
@@ -3449,7 +3457,7 @@ table ul {
 
 /* line 162, ../../sass/_export.scss */
 .biz-ex-logo {
-  background-color: #FAFAFA;
+  background-color: #1B396A;
   border-bottom: 1px solid #e8e8e8;
 }
 @media (min-width: 1024px) {
@@ -3487,7 +3495,7 @@ table ul {
 
 /* line 189, ../../sass/_export.scss */
 .biz-ex-top-nav {
-  background-color: #FAFAFA;
+  background-color: #1B396A;
   padding: 1em 0;
 }
 
@@ -3523,6 +3531,8 @@ table ul {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  
+  
 }
 
 /* line 218, ../../sass/_export.scss */
@@ -3534,6 +3544,10 @@ table ul {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  color: white;
+}
+.biz-ex-bizagi, .biz-ex-navigate{
+  color: white;
 }
 
 /* line 228, ../../sass/_export.scss */
@@ -3636,7 +3650,7 @@ table ul {
   width: 166px;
   height: 55px;
   margin: 0 auto;
-  background: url("../img/biz-ex-logo.png") no-repeat;
+  background: url("../img/logo_itp.png") no-repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* line 304, ../../sass/_export.scss */

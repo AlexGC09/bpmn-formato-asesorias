@@ -25,6 +25,16 @@
 ***************************************************************************** /
  -->
 
+ <!-- Footer -->
+
+ <div class="footer">
+    <div class="footer fixed-bootom bg-dark">
+        <div class="text-center p-3 bg-dark">
+            © 2022 Copyright: Alex Alberto García Cedro
+        </div>
+    </div>
+ </div>
+
     <div class="biz-ex-wrapper row"></div>
 
     <div class="alert-box biz-ex-supported">
@@ -973,7 +983,7 @@
 <script type="text/x-jquery-tmpl" id="HeaderViewTmpl">
     <div class="large-3 columns biz-ex-logo">
         <a class="button sidebar-button show-for-small" id="toggleMenuButton" href="#sidebar">
-            <img src="./libs/img/itp.png" />
+            <img src="./libs/img/itp.png">
         </a>
         <a href="list/" class="biz-ex-navigate biz-ex-logo-navigate">
             <i class="biz-ex-logo-img"></i>
@@ -1003,7 +1013,7 @@
                 </li>
                 {{if !Bizagi.AppModel.personalized}}
                 <li>
-                    <a href="http://www.bizagi.com/" target="_blank" class="biz-ex-bizagi">${Bizagi.Util.getResource('visitBizagi')}</a>
+                    <a href="http://www.itpachuca.edu.mx/index.php" target="_blank" class="biz-ex-bizagi">${Bizagi.Util.getResource('Visita Pagina ITPachuca.')}</a>
                 </li>
                 {{/if}}
             </ul>
@@ -1790,5 +1800,7 @@ h1, h2, h3, h4, h5, h6,
 
 </div>
 	<div id="image-renderer" style="position: absolute; width: 100000px; opacity: 0;"></div>
+
+    
 	</body>
 </html>
